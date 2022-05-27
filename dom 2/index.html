@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1 id="heading">Hello Dom</h1>
+        <p id="para">JavaScript Assignment</p>
+    </div>
+    <div id="container-1">
+        <button  onclick="bgColors()">BG COLOR</button>
+        <button onclick="textColors()">TEXT COLOR</button>
+
+</div>
+
+<div id="container-2">
+    <img id="img" src="img/Thor-2.jpg" width="300px" height="300px"  alt="">
+    <br>
+    <button onclick="imgHandler('show')"  >Show Img</button>
+    <button onclick="imgHandler('large')">Large Img</button>
+    <button onclick="imgHandler('small')">Small Img</button>
+    <button onclick="imgHandler('hide')">Hide Img</button>
+</div>
+ <div id="container-3">
+
+
+
+    <img src="img/bulbOn.jpg" width="140px"  onmouseout="imgChange('Off' , this)" onmouseover="imgChange('on' , this)" alt="">
+</div> 
+<div id="container-4">
+    <p id="para1" class="newpara">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum molestiae quia inventore animi dolore labore necessitatibus quo vitae! Cum laudantium sed architecto quis unde praesentium, dolore obcaecati esse cumque quo, ab, eius similique? Veniam quasi enim eaque laudantium qui et animi placeat, cumque illum perspiciatis repudiandae quam sequi cum dolorum? Quis, recusandae. </p><br>
+    <p id="para2" class="newpara">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum molestiae quia inventore animi dolore labore necessitatibus quo vitae! Cum laudantium sed architecto quis unde praesentium, dolore obcaecati esse cumque quo, ab, eius similique? Veniam quasi enim eaque laudantium qui et animi placeat, cumque illum perspiciatis repudiandae quam sequi cum dolorum? Quis, recusandae. </p><br>
+    <p id="para3" class="newpara">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum molestiae quia inventore animi dolore labore necessitatibus quo vitae! Cum laudantium sed architecto quis unde praesentium, dolore obcaecati esse cumque quo, ab, eius similique? Veniam quasi enim eaque laudantium qui et animi placeat, cumque illum perspiciatis repudiandae quam sequi cum dolorum? Quis, recusandae. </p><br>
+    <p id="para4" class="newpara">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum molestiae quia inventore animi dolore labore necessitatibus quo vitae! Cum laudantium sed architecto quis unde praesentium, dolore obcaecati esse cumque quo, ab, eius similique? Veniam quasi enim eaque laudantium qui et animi placeat, cumque illum perspiciatis repudiandae quam sequi cum dolorum? Quis, recusandae. </p>
+    <br><br>
+
+    <button onclick="foo()">Chnage Paragraph Color</button>
+</div>
+
+
+
+
+    
+</body>
+<script src="app.js"></script>
+</html>
